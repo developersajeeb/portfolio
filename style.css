@@ -9,9 +9,20 @@
     background: #5D3AAC;
     border-radius: 5px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     color: #ffffff;
     border: none;
+}
+
+.btn-border{
+    color: #5D3AAC;
+    padding: 17px 35px 17px 35px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    border: 2px solid #5D3AAC;
+    background: none;
+    margin-left: 20px;
 }
 
 section {
@@ -44,7 +55,7 @@ nav ul {
 nav li {
     list-style: none;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 50px;
 }
 
@@ -73,6 +84,8 @@ nav li {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+    padding-right: 80px;
+    line-height: 1.8;
 }
 
 .banner img {
@@ -172,12 +185,12 @@ main {
 
 .resume-item .title {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .resume-titel {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 24px;
     color: #474747;
     margin-bottom: 10px;
 }
@@ -186,7 +199,7 @@ main {
 .resume .sub-title {
     color: #757575;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 20px;
 }
 
@@ -197,10 +210,6 @@ main {
 .resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-hr {
-    border: 1px solid #D1D1D1;
 }
 
 .re-btn{
@@ -229,4 +238,5 @@ hr {
 
 .contact a{
     text-decoration: none;
+    margin-right: 12px;
 }
