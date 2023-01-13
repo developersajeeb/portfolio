@@ -14,7 +14,7 @@
     border: none;
 }
 
-.btn-border{
+.btn-border {
     color: #5D3AAC;
     padding: 17px 35px 17px 35px;
     border-radius: 5px;
@@ -204,7 +204,7 @@ main {
 }
 
 .resume .details {
-    color: #7575757;
+    color: #757575;
 }
 
 .resume-item {
@@ -212,31 +212,126 @@ main {
     margin-bottom: 30px;
 }
 
-.re-btn{
+.re-btn {
     margin-top: 50px;
     text-align: center;
 }
 
 /* Contact */
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
 
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
 
-.contact input[type="text"],input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: none;
     width: 100%;
     padding: 18px 30px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     margin-right: 12px;
+}
+
+/* --------------------
+Medium device style
+----------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    nav {
+        display: none;
+    }
+
+    .banner,
+    .skill-con {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .about,
+    .contact {
+        padding: 100px;
+    }
+
+    .padd {
+        padding: 0 100px;
+    }
+
+    .resume-content {
+        margin: 100px 20px;
+    }
+
+    .contact {
+        gap: 0;
+    }
+}
+
+/* --------------------
+Small device style
+----------------------- */
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: none;
+    }
+
+    .banner,
+    .skill-con {
+        margin: 0 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner img {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .about, .what {
+        padding: 40px;
+    }
+
+    .padd {
+        padding: 0;
+    }
+
+    .skill-con{
+        flex-direction: column;
+    }
+
+    .contact{
+        padding: 80px 20px;
+        gap: 0;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea {
+        width: 70%;
+    }
+
+    .resume-content {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .about-info-con {
+        flex-direction: column;
+    }
+
+    .about-info {
+        margin-bottom: 20px;
+    }
 }
